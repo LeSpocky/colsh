@@ -1,7 +1,7 @@
 # ----------------------------------------------------------------------
 # color definitions for the colsh project
 #
-# Copyright 2016 Alexander Dahl <post@lespocky.de>
+# Copyright Alexander Dahl <post@lespocky.de>
 #
 # see https://github.com/LeSpocky/colsh
 # ----------------------------------------------------------------------
@@ -36,7 +36,7 @@ COL_RST="${ESC_START}${COL_RESET_ALL}${ESC_END}"
 COL_INFO="${ESC_START}${COL_FG_GREEN}${ESC_END}"
 COL_WARN="${ESC_START}${COL_FG_BLACK}${ESC_SEP}${COL_BG_YELLOW}${ESC_END}"
 COL_ERR="${ESC_START}${COL_SET_BOLD}${ESC_SEP}${COL_FG_RED}${ESC_END}"
-COL_MSG="${ESC_START}${COL_FG_BR_BLUE}${ESC_END}"
+COL_MSG="${ESC_START}${COL_FG_CYAN}${ESC_END}"
 COL_STD="${ESC_START}${COL_RESET_ALL}${ESC_SEP}${COL_BG_DEFAULT}${ESC_END}"
 
 # vim: set noet sts=0 ts=4 sw=4 sr ft=sh:
